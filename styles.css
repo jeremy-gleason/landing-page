@@ -43,7 +43,7 @@ h1 {
     margin: 0;
 }
 
-.header-content > button {
+button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -103,6 +103,27 @@ blockquote {
 
 figcaption {
     text-align: right;
+}
+
+.main-3 {
+    padding: 48px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.sign-up-container > button {
+    border: 2px solid #F9FAF8;
 }
 
 footer {
