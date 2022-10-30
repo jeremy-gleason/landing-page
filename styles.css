@@ -46,6 +46,10 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
     margin: 0;
     font-size: 48px;
@@ -58,7 +62,12 @@ button {
     font-size: 18px;
     border: none;
     border-radius: 4px;
-    padding: 4px 16px;
+    padding: 6px 20px;
+}
+
+button:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
 }
 
 .header-img {
